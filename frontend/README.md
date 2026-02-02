@@ -77,9 +77,3 @@ See `ARCHITECTURE.md` for more details on data flow and component responsibiliti
 - Vitest config is at [vitest.config.ts](vitest.config.ts). Story-based tests are configured to run in a Playwright chromium instance via the Storybook addon.
 - To run unit tests locally: `npx vitest run`.
 
-See `TESTING.md` for more details and CI suggestions.
-
-## Open questions
-
-- Confirm backend base URL and whether any API keys are required — update `.env.example` accordingly.
-- Confirm if you want `package.json`'s `test` script updated to `vitest`.
