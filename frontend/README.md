@@ -71,9 +71,3 @@ VITE_API_BASE_URL=http://localhost:3001
 
 See `ARCHITECTURE.md` for more details on data flow and component responsibilities.
 
-## Testing & Storybook
-
-- Storybook is configured for component demos and can be run with `npm run storybook` (port 6006).
-- Vitest config is at [vitest.config.ts](vitest.config.ts). Story-based tests are configured to run in a Playwright chromium instance via the Storybook addon.
-- To run unit tests locally: `npx vitest run`.
-
